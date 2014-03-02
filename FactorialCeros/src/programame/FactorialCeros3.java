@@ -45,7 +45,7 @@ public class FactorialCeros3 {
 		}*/
 		pot5 = (int)Math.floor(Math.log10(n)/Math.log10(5.0));
 		total = total +(pot5*(pot5-1)/2);
-		//la suma 1+2+3+...+n-1 para hasta 5^n es n^2 / 2
+		//la suma 1+2+3+...+n-1 para hasta 5^n es n*(n-1)/ 2
 		
 		return total;	
 	}
